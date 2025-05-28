@@ -62,7 +62,7 @@ btn.addEventListener("click", ()=>{
     return promise5(res4)
   })
   .then((res5)=>{
-    output.innerHTML += `<p>Result: ${res5}</p>`
+    output.innerHTML += `<p>Final Result: ${res5}</p>`
   })
   .catch((err)=>{
     output.innerHTML += `<p>Final Result: ${err}</p>`
