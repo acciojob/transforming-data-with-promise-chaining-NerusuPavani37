@@ -37,7 +37,7 @@ function promise4(num){
 function promise5(num){
     return new Promise((resolve)=>{
       setTimeout(()=>{
-         resolve(num+3)
+         resolve(num+10)
       },1000)
     })
 }
