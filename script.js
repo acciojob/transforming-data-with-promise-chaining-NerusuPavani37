@@ -65,6 +65,6 @@ btn.addEventListener("click", ()=>{
     output.innerHTML += `<p>Result: ${res5}</p>`
   })
   .catch((err)=>{
-    output.innerHTML += `<p>Result: ${err}</p>`
+    output.innerHTML += `<p>Final Result: ${err}</p>`
   })
 })
